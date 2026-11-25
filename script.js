@@ -1,5 +1,5 @@
 /* ============================================================================
-   scrollcraft.js â€” Runtime completo + interaÃ§Ãµes da pÃ¡gina
+   scrollcraft.js — Runtime completo + interações da página
    ========================================================================== */
 (function (global) {
   'use strict';
@@ -498,7 +498,7 @@ function initPage() {
   if (btn && secret) {
     btn.addEventListener('click', function () {
       secret.classList.add('is-open');
-      btn.textContent = 'Promessa guardada â™¥';
+      btn.textContent = 'Promessa guardada ♥';
     });
   }
 }

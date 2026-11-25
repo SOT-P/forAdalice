@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* ============================================================================
-   scrollcraft.css â€” Tokens & Devices
+   scrollcraft.css — Tokens & Devices
    ========================================================================== */
 :root {
   --sc-canvas:      #0b090a;
@@ -255,7 +255,7 @@ button { font: inherit; color: inherit; }
   box-shadow: 0 0 12px var(--sc-accent);
 }
 
-/* Ato 1: Hero (Imagem ocupando toda a primeira seÃ§Ã£o de ponta a ponta) */
+/* Ato 1: Hero (Imagem ocupando toda a primeira seção de ponta a ponta) */
 .hero-glow {
   position: absolute;
   inset: 0;
@@ -355,7 +355,7 @@ button { font: inherit; color: inherit; }
   z-index: 2;
 }
 
-/* Ato 3: Carrossel horizontal contÃ­nuo (5 fotos) */
+/* Ato 3: Carrossel horizontal contínuo (5 fotos) */
 .carousel-stage {
   display: flex;
   flex-direction: column;
@@ -450,7 +450,7 @@ button { font: inherit; color: inherit; }
   color: var(--sc-accent);
 }
 
-/* Ato 4: Cena fixa com a foto 100% visÃ­vel e desobstruÃ­da */
+/* Ato 4: Cena fixa com a foto 100% visível e desobstruída */
 .care-stage {
   display: flex;
   align-items: center;
@@ -494,7 +494,7 @@ button { font: inherit; color: inherit; }
   will-change: opacity, transform;
 }
 
-/* Ato 5: Final com dÃ­ptico e promessa */
+/* Ato 5: Final com díptico e promessa */
 .finale-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
